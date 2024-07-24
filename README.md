@@ -11,7 +11,14 @@ project_directory
 ├── process_images.py
 ├── README.md
 
-
+## Create venv - 
+```bash
+python -m venv (name for vevn)
+```
+## Activate
+```bash
+.\activate\scripts\name of venv
+```
 - **dataset_creator.py**: Script for creating and managing datasets used for training the model.
 - **trainer.py**: Script for training the object detection and recognition model.
 - **detector.py**: Script for running the object detection model on images.
